@@ -1,0 +1,14 @@
+frmICQMenu = 66, 66, 468, 404, Z, 44, 44, 446, 382, C
+cVBALImageList = 0, 0, 402, 338, 
+cMemDC = 88, 88, 396, 426, 
+mDemo = 88, 88, 490, 426, 
+cIconMenu = 154, 154, 556, 492, 
+cNCMetrics = 22, 22, 424, 360, 
+cDottedBrush = 44, 44, 468, 317, 
+cTile = 110, 110, 512, 448, 
+mGDI = 154, 154, 556, 492, 
+ISubclass = 0, 0, 0, 0, C
+GSubclass = 0, 0, 0, 0, C
+CTimer = 110, 110, 512, 448, 
+MSubclass = 22, 22, 424, 360, 
+MTimer = 44, 44, 446, 382, 
