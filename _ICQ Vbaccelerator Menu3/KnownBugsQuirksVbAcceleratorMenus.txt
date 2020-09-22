@@ -1,0 +1,14 @@
+Known quirks, bugs. If you can help (especially with translucency) please send fixes to danaseaman@ieg.com.br
+
+1. Never use identical captions anywhere in these menus. This is because the Icon index is in a collection which uses the caption as its key. If you accidentally duplicate a caption you will tear your hair out trying to find out why your Icon index assignments are not working!  
+
+2. When the vertical bar is aligned right AND there is a submenu the submenu indicator gets painted on top of the vertical bar as opposed to the main portion of the menu. This is because the menu width was adjusted to include the vertical bar. This is a non-problem when the Vertical bar is on the left. 
+
+3. True translucency (alphablending) works on initial popup although the xy alignment is fudged in demo. Need to retrieve xy coordinates of the menu window relative to the screen. When the mouse passes over the menu to highlight the items, the effect gets trashed since the desktop now includes the just painted menu. There may or may not be a solution to this. It is under investigation.
+
+
+
+
+
+
+
